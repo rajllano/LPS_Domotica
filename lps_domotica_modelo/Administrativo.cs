@@ -7,5 +7,24 @@ namespace lps_domotica_modelo
 {
     public class Administrativo
     {
+        private static Administrativo Instancia;
+
+        public ColeccionUsuario ColeccionUsuario
+        {
+            get => default(ColeccionUsuario);
+            set
+            {
+            }
+        }
+
+        public static Administrativo getInstancia()
+        {
+            if (Instancia == null)
+                Instancia = new Administrativo();
+
+            return Instancia;
+        }
+
+
     }
 }

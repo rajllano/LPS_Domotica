@@ -6,3 +6,4 @@ C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica
 C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.csproj.GenerateResource.Cache
 C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.exe
 C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.pdb
+C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.Form1.resources
