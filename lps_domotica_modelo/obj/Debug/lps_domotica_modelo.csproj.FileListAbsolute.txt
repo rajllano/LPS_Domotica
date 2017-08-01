@@ -3,3 +3,7 @@ C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_modelo\bin\Debug\lps_domotic
 C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_modelo\obj\Debug\lps_domotica_modelo.csprojResolveAssemblyReference.cache
 C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_modelo\obj\Debug\lps_domotica_modelo.dll
 C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_modelo\obj\Debug\lps_domotica_modelo.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\obj\Debug\lps_domotica_modelo.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\obj\Debug\lps_domotica_modelo.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\bin\Debug\lps_domotica_modelo.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\bin\Debug\lps_domotica_modelo.pdb

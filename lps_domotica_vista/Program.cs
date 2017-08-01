@@ -16,7 +16,7 @@ namespace lps_domotica_vista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MDIParent1());
         }
     }
 }

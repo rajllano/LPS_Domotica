@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07AAC19B-D4C0-4128-B916-5015C1A28747}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>lps_domotica_modelo</RootNamespace>
+    <AssemblyName>lps_domotica_modelo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="02_Administracion\00_Enums\EEstadoDispositivo.cs" />
+    <Compile Include="02_Administracion\00_Enums\ETipoAlarma.cs" />
+    <Compile Include="02_Administracion\01_Colecciones\ColeccionNotificacion.cs" />
+    <Compile Include="02_Administracion\01_Colecciones\ColeccionDispositivo.cs" />
+    <Compile Include="02_Administracion\02_Iteradores\IteradorColeccionNotificacion.cs" />
+    <Compile Include="02_Administracion\02_Iteradores\IteradorColeccionDispositivo.cs" />
+    <Compile Include="02_Administracion\03_Clases\Alarma.cs" />
+    <Compile Include="02_Administracion\01_Colecciones\ColeccionAlarma.cs" />
+    <Compile Include="02_Administracion\03_Clases\Dispositivo.cs" />
+    <Compile Include="02_Administracion\00_Enums\ETipoDispositivo.cs" />
+    <Compile Include="01_General\02_Iteradores\IIterable.cs" />
+    <Compile Include="01_General\02_Iteradores\IIterador.cs" />
+    <Compile Include="02_Administracion\02_Iteradores\IteradorColeccionAlarma.cs" />
+    <Compile Include="02_Administracion\03_Clases\Notificacion.cs" />
+    <Compile Include="03_Energia\01_Colecciones\ColeccionEnergia.cs" />
+    <Compile Include="03_Energia\02_Iteradores\IteradorColeccionEnergia.cs" />
+    <Compile Include="04_Seguridad\01_Colecciones\ColeccionIntrusion.cs" />
+    <Compile Include="04_Seguridad\02_Iteradores\IteradorColeccionIntrusion.cs" />
+    <Compile Include="04_Seguridad\03_Clases\Intrusion.cs" />
+    <Compile Include="02_Administracion\03_Clases\Administrativo.cs" />
+    <Compile Include="01_General\01_Colecciones\Coleccion.cs" />
+    <Compile Include="02_Administracion\01_Colecciones\ColeccionPrivilegio.cs" />
+    <Compile Include="02_Administracion\01_Colecciones\ColeccionUsuario.cs" />
+    <Compile Include="01_General\03_Clases\Domotica.cs" />
+    <Compile Include="02_Administracion\03_Clases\Privilegio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="03_Energia\03_Clases\Seguimiento.cs" />
+    <Compile Include="02_Administracion\03_Clases\Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="00_Modelos\Modelo Administrativo.cd" />
+    <None Include="00_Modelos\Producto 1.cd" />
+    <None Include="00_Modelos\Producto 2.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
