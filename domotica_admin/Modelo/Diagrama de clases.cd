@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="domotica_admin.Modelo.Administrativo">
+    <Position X="5.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAABAAAAAAIBAAAQAAAAAAAAABAEAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Administrativo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ColeccionAlarma" />
+      <Property Name="ColeccionUsuario" />
+      <Property Name="ColeccionDispositivo" />
+      <Property Name="ColeccionNotificacion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="domotica_admin.Modelo.Alarma">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAIAAIwABAAAAAAEAABAAAAAA=</HashCode>
+      <FileName>Modelo\Alarma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.Coleccion&lt;T&gt;">
+    <Position X="14" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAEQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Modelo\Coleccion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.ColeccionAlarma">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Modelo\ColeccionAlarma.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="domotica_admin.Modelo.ColeccionDispositivo">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Modelo\ColeccionDispositivo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="domotica_admin.Modelo.ColeccionNotificacion">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Modelo\ColeccionNotificacion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="domotica_admin.Modelo.ColeccionUsuario">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\ColeccionUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.Dispositivo">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAgAAEAAIAAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>Modelo\Dispositivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.IteradorColeccionAlarma" Collapsed="true">
+    <Position X="18" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgE=</HashCode>
+      <FileName>Modelo\IteradorColeccionAlarma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.IteradorColeccionDispositivo" Collapsed="true">
+    <Position X="18" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgE=</HashCode>
+      <FileName>Modelo\IteradorColeccionDispositivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.IteradorColeccionNotificacion" Collapsed="true">
+    <Position X="18" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgE=</HashCode>
+      <FileName>Modelo\IteradorColeccionNotificacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.Notificacion">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAJAAAAAA=</HashCode>
+      <FileName>Modelo\Notificacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="domotica_admin.Modelo.Usuario">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEAAAAgAAAAIAAAAAAAIAAAAgAEAA=</HashCode>
+      <FileName>Modelo\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="domotica_admin.Modelo.IIterable" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\IIterable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="domotica_admin.Modelo.IIterador&lt;T&gt;" Collapsed="true">
+    <Position X="16.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Modelo\IIterador.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="domotica_admin.Modelo.EEstadoDispositivo" Collapsed="true">
+    <Position X="18" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAA=</HashCode>
+      <FileName>Modelo\EEstadoDispositivo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="domotica_admin.Modelo.ETipoAlarma" Collapsed="true">
+    <Position X="16.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\ETipoAlarma.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="domotica_admin.Modelo.ETipoDispositivo" Collapsed="true">
+    <Position X="18" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Modelo\ETipoDispositivo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

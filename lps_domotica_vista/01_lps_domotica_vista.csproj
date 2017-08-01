@@ -124,12 +124,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\lps_domotica_control\02_lps_domotica_control.csproj">
-      <Project>{f77c25d9-1dd3-4c07-ac72-9696e0da1413}</Project>
-      <Name>02_lps_domotica_control</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>

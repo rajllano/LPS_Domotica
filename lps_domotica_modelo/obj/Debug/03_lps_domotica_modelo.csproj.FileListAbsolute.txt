@@ -1,4 +1,0 @@
-D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\bin\Debug\lps_domotica_modelo.dll
-D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\bin\Debug\lps_domotica_modelo.pdb
-D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\obj\Debug\lps_domotica_modelo.dll
-D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_modelo\obj\Debug\lps_domotica_modelo.pdb

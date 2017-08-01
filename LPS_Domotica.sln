@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_lps_domotica_modelo", "lps_domotica_modelo\03_lps_domotica_modelo.csproj", "{07AAC19B-D4C0-4128-B916-5015C1A28747}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_lps_domotica_control", "lps_domotica_control\02_lps_domotica_control.csproj", "{F77C25D9-1DD3-4C07-AC72-9696E0DA1413}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_lps_domotica_vista", "lps_domotica_vista\01_lps_domotica_vista.csproj", "{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotica_admin", "domotica_admin\domotica_admin.csproj", "{609AB064-1AAD-4DFD-AD55-A82DC3204006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotica_seguridad", "domotica_seguridad\domotica_seguridad.csproj", "{C7117542-CDD6-4D15-8167-20E7D9645A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotica_gestion_energia", "domotica_gestion_energia\domotica_gestion_energia.csproj", "{45558D68-74DC-44AD-843F-338021C705E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07AAC19B-D4C0-4128-B916-5015C1A28747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07AAC19B-D4C0-4128-B916-5015C1A28747}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07AAC19B-D4C0-4128-B916-5015C1A28747}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07AAC19B-D4C0-4128-B916-5015C1A28747}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F77C25D9-1DD3-4C07-AC72-9696E0DA1413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F77C25D9-1DD3-4C07-AC72-9696E0DA1413}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F77C25D9-1DD3-4C07-AC72-9696E0DA1413}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F77C25D9-1DD3-4C07-AC72-9696E0DA1413}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609AB064-1AAD-4DFD-AD55-A82DC3204006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609AB064-1AAD-4DFD-AD55-A82DC3204006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609AB064-1AAD-4DFD-AD55-A82DC3204006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609AB064-1AAD-4DFD-AD55-A82DC3204006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7117542-CDD6-4D15-8167-20E7D9645A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7117542-CDD6-4D15-8167-20E7D9645A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7117542-CDD6-4D15-8167-20E7D9645A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7117542-CDD6-4D15-8167-20E7D9645A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45558D68-74DC-44AD-843F-338021C705E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45558D68-74DC-44AD-843F-338021C705E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45558D68-74DC-44AD-843F-338021C705E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45558D68-74DC-44AD-843F-338021C705E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

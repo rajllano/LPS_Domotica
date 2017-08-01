@@ -1,5 +1,0 @@
-C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_control\bin\Debug\lps_domotica_control.dll
-C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_control\bin\Debug\lps_domotica_control.pdb
-C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_control\obj\Debug\lps_domotica_control.csprojResolveAssemblyReference.cache
-C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_control\obj\Debug\lps_domotica_control.dll
-C:\Users\Max\Source\Repos\LPS_Domotica\lps_domotica_control\obj\Debug\lps_domotica_control.pdb
