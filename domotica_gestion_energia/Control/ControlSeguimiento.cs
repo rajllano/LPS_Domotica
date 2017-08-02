@@ -31,7 +31,7 @@ namespace domotica_gestion_energia.Control
                 a.Potencia = pPotencia;
                 a.Dispositivo = pDispositivo;
 
-                Administrativo.getInstancia().ColeccionEnergia.Agregar(a);
+                Energia.getInstancia().ColeccionEnergia.Agregar(a);
 
                 r.Anexo.Add("SeguimientoEnergia", a);
                 r.Mensaje += "Se agrego SeguimientoEnergia de Id " + pId;
@@ -55,7 +55,7 @@ namespace domotica_gestion_energia.Control
 
             try
             {
-                Seguimiento d = Administrativo.getInstancia().ColeccionEnergia.BuscarPorIdSeguimiento(pId);
+                Seguimiento d = Energia.getInstancia().ColeccionEnergia.BuscarPorIdSeguimiento(pId);
 
                 if (d == null)
                     throw new Exception("No existe Seguimiento Energia con el Id " + pId);
@@ -82,7 +82,7 @@ namespace domotica_gestion_energia.Control
 
             try
             {
-                ColeccionEnergia cd = Administrativo.getInstancia().ColeccionEnergia;
+                ColeccionEnergia cd = Energia.getInstancia().ColeccionEnergia;
 
                 if (cd.Tamano() == 0)
                     throw new Exception("No existen SeguimientoEnergia");

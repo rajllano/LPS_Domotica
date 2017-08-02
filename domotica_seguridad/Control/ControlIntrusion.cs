@@ -26,9 +26,9 @@ namespace domotica_seguridad.Control
                 a.Id = pId;
                 a.FechaHora = pFechaHora;
                 a.Hora = pHora;
-                a.Dispositivo = pDispositivo;                
+                a.Dispositivo = pDispositivo;
 
-                Administrativo.getInstancia().ColeccionIntrusion.Agregar(a);
+                Seguridad.getInstancia().ColeccionIntrusion.Agregar(a);
 
                 r.Anexo.Add("Intrusion", a);
                 r.Mensaje += "Se agrego Intrusion de Id " + pId;
@@ -52,7 +52,7 @@ namespace domotica_seguridad.Control
 
             try
             {
-                Intrusion d = Administrativo.getInstancia().ColeccionIntrusion.BuscarPorId(pId);
+                Intrusion d = Seguridad.getInstancia().ColeccionIntrusion.BuscarPorId(pId);
 
                 if (d == null)
                     throw new Exception("No existe Intrusion con el Id " + pId);
@@ -79,7 +79,7 @@ namespace domotica_seguridad.Control
 
             try
             {
-                ColeccionIntrusion cd = Administrativo.getInstancia().ColeccionIntrusion;
+                ColeccionIntrusion cd = Seguridad.getInstancia().ColeccionIntrusion;
 
                 if (cd.Tamano() == 0)
                     throw new Exception("No existen Intrusiones");

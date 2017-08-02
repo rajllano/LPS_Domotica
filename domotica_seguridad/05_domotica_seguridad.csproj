@@ -44,6 +44,7 @@
     <Compile Include="Modelo\ColeccionIntrusion.cs" />
     <Compile Include="Modelo\Intrusion.cs" />
     <Compile Include="Modelo\IteradorColeccionIntrusion.cs" />
+    <Compile Include="Modelo\Seguridad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +52,9 @@
       <Project>{609ab064-1aad-4dfd-ad55-a82dc3204006}</Project>
       <Name>03_domotica_admin</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Modelo\Diagrama de clases.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

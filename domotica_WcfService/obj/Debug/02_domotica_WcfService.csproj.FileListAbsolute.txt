@@ -1,1 +1,15 @@
 D:\03_Desarrollo\01_GitHub\domotica_WcfService\obj\Debug\02_domotica_WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_WcfService.dll.config
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_WcfService.dll
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_WcfService.pdb
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_admin.dll
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_gestion_energia.dll
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_seguridad.dll
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_admin.pdb
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_admin.dll.config
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_gestion_energia.pdb
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_gestion_energia.dll.config
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_seguridad.pdb
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\obj\Debug\02_domotica_WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\obj\Debug\domotica_WcfService.dll
+C:\Users\Max\Source\Repos\LPS_Domotica\domotica_WcfService\obj\Debug\domotica_WcfService.pdb

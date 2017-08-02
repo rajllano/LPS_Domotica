@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Control\ControlSeguimiento.cs" />
     <Compile Include="Modelo\ColeccionEnergia.cs" />
+    <Compile Include="Modelo\Energia.cs" />
     <Compile Include="Modelo\IteradorColeccionEnergia.cs" />
     <Compile Include="Modelo\Seguimiento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Modelo\Diagrama de clases.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
