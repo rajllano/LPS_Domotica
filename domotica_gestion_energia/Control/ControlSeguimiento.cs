@@ -2,6 +2,11 @@
 using domotica_admin.Modelo;
 using domotica_gestion_energia.Modelo;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 namespace domotica_gestion_energia.Control
 {

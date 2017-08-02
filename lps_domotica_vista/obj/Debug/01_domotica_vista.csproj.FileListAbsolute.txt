@@ -1,0 +1,12 @@
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe.config
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\bin\Debug\lps_domotica_vista.pdb
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\01_domotica_vista.csprojResolveAssemblyReference.cache
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\lps_domotica_vista.frmAlarma.resources
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\lps_domotica_vista.frmDispositivo.resources
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\lps_domotica_vista.frmNotificaciones.resources
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\lps_domotica_vista.MDIParent1.resources
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\lps_domotica_vista.Properties.Resources.resources
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\01_domotica_vista.csproj.GenerateResource.Cache
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\lps_domotica_vista.exe
+D:\03_Desarrollo\01_GitHub\lps_domotica_vista\obj\Debug\lps_domotica_vista.pdb

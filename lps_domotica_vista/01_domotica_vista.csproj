@@ -136,6 +136,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\domotica_WcfService\02_domotica_WcfService.csproj">
       <Project>{acdcffe9-ddf1-4791-973e-6bc2a1945b6e}</Project>
       <Name>02_domotica_WcfService</Name>

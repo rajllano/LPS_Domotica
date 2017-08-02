@@ -1,0 +1,4 @@
+D:\03_Desarrollo\01_GitHub\domotica_admin\bin\Debug\domotica_admin.dll
+D:\03_Desarrollo\01_GitHub\domotica_admin\bin\Debug\domotica_admin.pdb
+D:\03_Desarrollo\01_GitHub\domotica_admin\obj\Debug\domotica_admin.dll
+D:\03_Desarrollo\01_GitHub\domotica_admin\obj\Debug\domotica_admin.pdb

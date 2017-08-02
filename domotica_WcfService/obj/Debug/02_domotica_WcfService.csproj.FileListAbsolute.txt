@@ -1,0 +1,1 @@
+D:\03_Desarrollo\01_GitHub\domotica_WcfService\obj\Debug\02_domotica_WcfService.csprojResolveAssemblyReference.cache
