@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_domotica_vista", "lps_domotica_vista\01_domotica_vista.csproj", "{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ACDCFFE9-DDF1-4791-973E-6BC2A1945B6E} = {ACDCFFE9-DDF1-4791-973E-6BC2A1945B6E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_domotica_admin", "domotica_admin\03_domotica_admin.csproj", "{609AB064-1AAD-4DFD-AD55-A82DC3204006}"
 EndProject

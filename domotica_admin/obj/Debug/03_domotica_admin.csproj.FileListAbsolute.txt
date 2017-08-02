@@ -9,3 +9,8 @@ C:\Users\Max\Source\Repos\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.d
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.pdb
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.dll
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.dll.config
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.pdb

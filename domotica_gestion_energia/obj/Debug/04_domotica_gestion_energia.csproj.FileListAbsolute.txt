@@ -8,3 +8,12 @@ C:\Users\Max\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domoti
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domotica_admin.dll.config
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_gestion_energia\obj\Debug\domotica_gestion_energia.dll
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_gestion_energia\obj\Debug\domotica_gestion_energia.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domotica_gestion_energia.dll.config
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domotica_gestion_energia.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domotica_gestion_energia.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domotica_admin.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domotica_admin.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\bin\Debug\domotica_admin.dll.config
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\obj\Debug\04_domotica_gestion_energia.csprojResolveAssemblyReference.cache
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\obj\Debug\domotica_gestion_energia.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_gestion_energia\obj\Debug\domotica_gestion_energia.pdb

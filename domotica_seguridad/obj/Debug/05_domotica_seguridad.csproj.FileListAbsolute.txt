@@ -7,3 +7,11 @@ C:\Users\Max\Source\Repos\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_adm
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\05_domotica_seguridad.csprojResolveAssemblyReference.cache
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.dll
 C:\Users\Max\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_seguridad.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_seguridad.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_admin.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_admin.pdb
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_admin.dll.config
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\05_domotica_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.dll
+C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.pdb

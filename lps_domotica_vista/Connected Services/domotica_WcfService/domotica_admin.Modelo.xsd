@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/domotica_admin.Modelo" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/domotica_admin.Modelo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Dispositivo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Estado" type="tns:EEstadoDispositivo" />
+      <xs:element minOccurs="0" name="IdDispositivo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdUsuario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" type="tns:ETipoDispositivo" />
+      <xs:element minOccurs="0" name="Valor" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Dispositivo" nillable="true" type="tns:Dispositivo" />
+  <xs:simpleType name="EEstadoDispositivo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ACTIVO">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="INACTIVO">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EEstadoDispositivo" nillable="true" type="tns:EEstadoDispositivo" />
+  <xs:simpleType name="ETipoDispositivo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ENERGIA">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="SEGURIDAD">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="ILUMINACION">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ETipoDispositivo" nillable="true" type="tns:ETipoDispositivo" />
+  <xs:simpleType name="ETipoAlarma">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="DISPOSTIVO_VALOR_DOUBLE">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="DISPOSTIVO_VALOR_FECHA">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ETipoAlarma" nillable="true" type="tns:ETipoAlarma" />
+</xs:schema>

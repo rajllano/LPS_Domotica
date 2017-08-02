@@ -52,6 +52,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -63,6 +65,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connected Services\domotica_WcfService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="frmAlarma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +117,22 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Connected Services\domotica_WcfService\domotica_admin.Modelo.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\domotica_WcfService\domotica_WcfService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\domotica_WcfService\lps_domotica_vista.domotica_WcfService.Alarma.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\domotica_WcfService\service.wsdl" />
+    <None Include="Connected Services\domotica_WcfService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\domotica_WcfService\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -139,10 +162,19 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\domotica_WcfService\02_domotica_WcfService.csproj">
-      <Project>{acdcffe9-ddf1-4791-973e-6bc2a1945b6e}</Project>
-      <Name>02_domotica_WcfService</Name>
-    </ProjectReference>
+    <WCFMetadataStorage Include="Connected Services\domotica_WcfService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\domotica_WcfService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\domotica_WcfService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\domotica_WcfService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

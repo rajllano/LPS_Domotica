@@ -39,6 +39,7 @@ namespace domotica_WcfService
         public ETipoAlarma Tipificacio { get; set; }
     }
 
+    [DataContract]
     public class Respuesta {
         [DataMember]
         public string MensajeServicio { get; set; }

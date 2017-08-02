@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using domotica_WcfService;
 
 namespace lps_domotica_vista
 {
@@ -20,10 +19,10 @@ namespace lps_domotica_vista
 
         private void btAceptar_Click(object sender, EventArgs e)
         {
-            /*using (WSAdministracion.WSWSAdministracionClient cliente = new WSAdministracion.WSWSAdministracionClient())
+            using (domotica_WcfService.WSAdministracionClient cliente = new domotica_WcfService.WSAdministracionClient())
             {
-                cliente.Agregar();
-            }*/
+                //cliente.Agregar();
+            }
         }
     }
 }
