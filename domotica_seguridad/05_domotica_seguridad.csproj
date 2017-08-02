@@ -47,9 +47,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\domotica_admin\domotica_admin.csproj">
+    <ProjectReference Include="..\domotica_admin\03_domotica_admin.csproj">
       <Project>{609ab064-1aad-4dfd-ad55-a82dc3204006}</Project>
-      <Name>domotica_admin</Name>
+      <Name>03_domotica_admin</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

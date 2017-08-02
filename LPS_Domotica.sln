@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_lps_domotica_vista", "lps_domotica_vista\01_lps_domotica_vista.csproj", "{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_domotica_vista", "lps_domotica_vista\01_domotica_vista.csproj", "{F3646CC8-8B0B-4A3B-909E-9FE3E45C3198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotica_admin", "domotica_admin\domotica_admin.csproj", "{609AB064-1AAD-4DFD-AD55-A82DC3204006}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_domotica_admin", "domotica_admin\03_domotica_admin.csproj", "{609AB064-1AAD-4DFD-AD55-A82DC3204006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotica_seguridad", "domotica_seguridad\domotica_seguridad.csproj", "{C7117542-CDD6-4D15-8167-20E7D9645A3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_domotica_seguridad", "domotica_seguridad\05_domotica_seguridad.csproj", "{C7117542-CDD6-4D15-8167-20E7D9645A3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotica_gestion_energia", "domotica_gestion_energia\domotica_gestion_energia.csproj", "{45558D68-74DC-44AD-843F-338021C705E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_domotica_gestion_energia", "domotica_gestion_energia\04_domotica_gestion_energia.csproj", "{45558D68-74DC-44AD-843F-338021C705E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_domotica_WcfService", "domotica_WcfService\02_domotica_WcfService.csproj", "{ACDCFFE9-DDF1-4791-973E-6BC2A1945B6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{45558D68-74DC-44AD-843F-338021C705E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45558D68-74DC-44AD-843F-338021C705E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45558D68-74DC-44AD-843F-338021C705E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDCFFE9-DDF1-4791-973E-6BC2A1945B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDCFFE9-DDF1-4791-973E-6BC2A1945B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDCFFE9-DDF1-4791-973E-6BC2A1945B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDCFFE9-DDF1-4791-973E-6BC2A1945B6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
