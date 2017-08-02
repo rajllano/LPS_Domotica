@@ -11,6 +11,7 @@
     <AssemblyName>domotica_admin</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +48,7 @@
     <Compile Include="Control\ControlDispostivos.cs" />
     <Compile Include="Control\ControlLog.cs" />
     <Compile Include="Control\ControlNotificacion.cs" />
+    <Compile Include="IWSAdministracion.cs" />
     <Compile Include="Modelo\Administrativo.cs" />
     <Compile Include="Modelo\Alarma.cs" />
     <Compile Include="Modelo\Coleccion.cs" />
@@ -67,8 +71,10 @@
     <Compile Include="Modelo\Respuesta.cs" />
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WSAdministracion.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Modelo\Diagrama de clases.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
