@@ -27,3 +27,17 @@ C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_WcfService\bin\Debug\domotic
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_WcfService\obj\Debug\02_domotica_WcfService.csprojResolveAssemblyReference.cache
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_WcfService\obj\Debug\domotica_WcfService.dll
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_WcfService\obj\Debug\domotica_WcfService.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\obj\Debug\02_domotica_WcfService.csprojResolveAssemblyReference.cache
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\obj\Debug\domotica_WcfService.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\obj\Debug\domotica_WcfService.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_WcfService.dll.config
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_WcfService.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_WcfService.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_admin.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_gestion_energia.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_seguridad.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_admin.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_admin.dll.config
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_gestion_energia.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_gestion_energia.dll.config
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_WcfService\bin\Debug\domotica_seguridad.pdb

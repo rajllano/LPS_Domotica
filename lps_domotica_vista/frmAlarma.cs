@@ -17,12 +17,22 @@ namespace lps_domotica_vista
             InitializeComponent();
         }
 
-        private void btAceptar_Click(object sender, EventArgs e)
+        private void frmAlarma_Load(object sender, EventArgs e)
         {
-            using (domotica_WcfService.WSAdministracionClient cliente = new domotica_WcfService.WSAdministracionClient())
+            using (IWSAdministracion.WSAdministracionClient cliente = new IWSAdministracion.WSAdministracionClient())
             {
-                //cliente.Agregar();
+                 //cliente.ListarAlarma().Anexo["ColeccionAlarmas"];
             }
         }
+
+        private void btAceptar_Click(object sender, EventArgs e)
+        {
+            using (IWSAdministracion.WSAdministracionClient cliente = new IWSAdministracion.WSAdministracionClient())
+            {
+                //cliente.AgregarAlarma();
+            }
+        }
+
+        
     }
 }

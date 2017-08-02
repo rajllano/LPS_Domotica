@@ -7,34 +7,31 @@ using System.Text;
 using domotica_admin.Control;
 using domotica_admin.Modelo;
 
-namespace domotica_WcfService.Administracion
+namespace domotica_WcfService.Energia
 {
+    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IWSEnergia" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
-    public interface IWSAdministracion
+    public interface IWSEnergia
     {
         [OperationContract]
-        Respuesta AgregarAlarma(string pIdAlarma, string pNombre, DateTime pFechaHora, Dispositivo pDispositivo, Double pLimite_Inferior, Double pLimite_Superior, ETipoAlarma pTipificacion);
-        [OperationContract]
-        Respuesta ListarAlarma();
+        Respuesta Agregar(string pId, DateTime pFechaHora, int pHora, Double pPotencia, Dispositivo pDispositivo);
+        Respuesta Listar();
     }
 
     [DataContract]
-    public class Alarma: Respuesta
+    public class Energia : Respuesta
     {
         [DataMember]
-        public string IdAlarma { get; set; }
-        [DataMember]
-        public string Nombre { get; set; }
+        public string Id { get; set; }
         [DataMember]
         public DateTime FechaHora { get; set; }
         [DataMember]
+        public int Hora { get; set; }
+        [DataMember]
+        public Double Potencia { get; set; }
+        [DataMember]
         public domotica_admin.Modelo.Dispositivo Dispositivo { get; set; }
-        [DataMember]
-        public Double Limite_Inferior { get; set; }
-        [DataMember]
-        public Double Limite_Superior { get; set; }
-        [DataMember]
-        public ETipoAlarma Tipificacio { get; set; }
+        
     }
 
     [DataContract]

@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IWSAdministracion.cs" />
+    <Compile Include="IWSEnergia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WSAdministracion.cs" />
+    <Compile Include="WSEnergia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

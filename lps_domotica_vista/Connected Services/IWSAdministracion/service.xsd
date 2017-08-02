@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:import namespace="http://schemas.datacontract.org/2004/07/domotica_admin.Modelo" />
-  <xs:import namespace="http://schemas.datacontract.org/2004/07/domotica_WcfService" />
-  <xs:element name="Agregar">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/domotica_WcfService.Administracion" />
+  <xs:element name="AgregarAlarma">
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="pIdAlarma" nillable="true" type="xs:string" />
@@ -15,10 +15,22 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="AgregarResponse">
+  <xs:element name="AgregarAlarmaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/domotica_WcfService" minOccurs="0" name="AgregarResult" nillable="true" type="q3:Alarma" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/domotica_WcfService.Administracion" minOccurs="0" name="AgregarAlarmaResult" nillable="true" type="q3:Respuesta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarAlarma">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarAlarmaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/domotica_WcfService.Administracion" minOccurs="0" name="ListarAlarmaResult" nillable="true" type="q4:Respuesta" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

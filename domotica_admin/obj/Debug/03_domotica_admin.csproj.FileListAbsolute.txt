@@ -14,3 +14,8 @@ C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\bin\Debug\domotica_adm
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.pdb
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.dll
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.dll.config
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_admin\bin\Debug\domotica_admin.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_admin\obj\Debug\domotica_admin.pdb

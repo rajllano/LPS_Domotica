@@ -40,3 +40,14 @@ C:\Users\orvalen\Source\Repos\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domo
 C:\Users\orvalen\Source\Repos\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe.config
 C:\Users\orvalen\Source\Repos\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe
 C:\Users\orvalen\Source\Repos\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.frmAlarma.resources
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.frmDispositivo.resources
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.frmNotificaciones.resources
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.MDIParent1.resources
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.Properties.Resources.resources
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\01_domotica_vista.csproj.GenerateResource.Cache
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.exe
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe.config
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.pdb

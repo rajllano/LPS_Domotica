@@ -15,3 +15,11 @@ C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\bin\Debug\domotica
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\05_domotica_seguridad.csprojResolveAssemblyReference.cache
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.dll
 C:\Users\orvalen\Source\Repos\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_seguridad.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_seguridad.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_admin.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_admin.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\bin\Debug\domotica_admin.dll.config
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\obj\Debug\05_domotica_seguridad.csprojResolveAssemblyReference.cache
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.dll
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\domotica_seguridad\obj\Debug\domotica_seguridad.pdb

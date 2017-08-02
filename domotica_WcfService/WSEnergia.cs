@@ -4,17 +4,18 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-using domotica_admin.Control;
 using domotica_admin.Modelo;
+using domotica_gestion_energia.Control;
+using domotica_gestion_energia.Modelo;
 
-namespace domotica_WcfService.Administracion
+namespace domotica_WcfService.Energia
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código y en el archivo de configuración a la vez.
-    public class WSAdministracion : IWSAdministracion
+    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "WSEnergia" en el código y en el archivo de configuración a la vez.
+    public class WSEnergia : IWSEnergia
     {
-        public Respuesta AgregarAlarma(string pIdAlarma, string pNombre, DateTime pFechaHora, Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, ETipoAlarma pTipificacion)
+        public Respuesta Agregar(string pId, DateTime pFechaHora, int pHora, double pPotencia, Dispositivo pDispositivo)
         {
-            domotica_admin.Modelo.Respuesta r = ControlAlarma.Agregar(pIdAlarma, pNombre, pFechaHora, pDispositivo, pLimite_Inferior, pLimite_Superior, pTipificacion);
+            domotica_admin.Modelo.Respuesta r = ControlSeguimiento.Agregar(pId, pFechaHora, pHora, pPotencia, pDispositivo);
 
             if (r.Estado)
             {
@@ -31,9 +32,9 @@ namespace domotica_WcfService.Administracion
             }
         }
 
-        public Respuesta ListarAlarma()
+        public Respuesta Listar()
         {
-            domotica_admin.Modelo.Respuesta r = ControlAlarma.Listar();
+            domotica_admin.Modelo.Respuesta r = domotica_gestion_energia.Control.ControlSeguimiento.Listar();
             if (r.Estado)
             {
                 Respuesta resServicio = new Respuesta();

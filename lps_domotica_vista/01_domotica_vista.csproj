@@ -65,7 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\domotica_WcfService\Reference.cs">
+    <Compile Include="Connected Services\IWSAdministracion\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -117,20 +117,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\domotica_WcfService\domotica_admin.Modelo.xsd">
+    <None Include="Connected Services\IWSAdministracion\Arrays.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\domotica_WcfService\domotica_WcfService.xsd">
+    <None Include="Connected Services\IWSAdministracion\domotica_admin.Modelo.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\domotica_WcfService\lps_domotica_vista.domotica_WcfService.Alarma.datasource">
+    <None Include="Connected Services\IWSAdministracion\domotica_WcfService.Administracion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\IWSAdministracion\lps_domotica_vista.IWSAdministracion.Respuesta.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\domotica_WcfService\service.wsdl" />
-    <None Include="Connected Services\domotica_WcfService\service.xsd">
+    <None Include="Connected Services\IWSAdministracion\service.wsdl" />
+    <None Include="Connected Services\IWSAdministracion\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\domotica_WcfService\service1.xsd">
+    <None Include="Connected Services\IWSAdministracion\service1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -162,16 +165,16 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\domotica_WcfService\" />
+    <WCFMetadataStorage Include="Connected Services\IWSAdministracion\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\domotica_WcfService\configuration91.svcinfo" />
+    <None Include="Connected Services\IWSAdministracion\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\domotica_WcfService\configuration.svcinfo" />
+    <None Include="Connected Services\IWSAdministracion\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\domotica_WcfService\Reference.svcmap">
+    <None Include="Connected Services\IWSAdministracion\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

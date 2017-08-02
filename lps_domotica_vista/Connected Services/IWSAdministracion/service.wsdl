@@ -5,25 +5,45 @@
       <xsd:import namespace="http://tempuri.org/" />
       <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xsd:import namespace="http://schemas.datacontract.org/2004/07/domotica_admin.Modelo" />
-      <xsd:import namespace="http://schemas.datacontract.org/2004/07/domotica_WcfService" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/domotica_WcfService.Administracion" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="IWSAdministracion_Agregar_InputMessage">
-    <wsdl:part name="parameters" element="tns:Agregar" />
+  <wsdl:message name="IWSAdministracion_AgregarAlarma_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarAlarma" />
   </wsdl:message>
-  <wsdl:message name="IWSAdministracion_Agregar_OutputMessage">
-    <wsdl:part name="parameters" element="tns:AgregarResponse" />
+  <wsdl:message name="IWSAdministracion_AgregarAlarma_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarAlarmaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSAdministracion_ListarAlarma_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarAlarma" />
+  </wsdl:message>
+  <wsdl:message name="IWSAdministracion_ListarAlarma_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarAlarmaResponse" />
   </wsdl:message>
   <wsdl:portType name="IWSAdministracion">
-    <wsdl:operation name="Agregar">
-      <wsdl:input wsaw:Action="http://tempuri.org/IWSAdministracion/Agregar" message="tns:IWSAdministracion_Agregar_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IWSAdministracion/AgregarResponse" message="tns:IWSAdministracion_Agregar_OutputMessage" />
+    <wsdl:operation name="AgregarAlarma">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSAdministracion/AgregarAlarma" message="tns:IWSAdministracion_AgregarAlarma_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSAdministracion/AgregarAlarmaResponse" message="tns:IWSAdministracion_AgregarAlarma_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarAlarma">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSAdministracion/ListarAlarma" message="tns:IWSAdministracion_ListarAlarma_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSAdministracion/ListarAlarmaResponse" message="tns:IWSAdministracion_ListarAlarma_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IWSAdministracion" type="tns:IWSAdministracion">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="Agregar">
-      <soap:operation soapAction="http://tempuri.org/IWSAdministracion/Agregar" style="document" />
+    <wsdl:operation name="AgregarAlarma">
+      <soap:operation soapAction="http://tempuri.org/IWSAdministracion/AgregarAlarma" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarAlarma">
+      <soap:operation soapAction="http://tempuri.org/IWSAdministracion/ListarAlarma" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

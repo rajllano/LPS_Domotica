@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a557cc70-d448-43cb-9eec-421cb7e243b2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ad7ee689-077d-4833-92ba-34302a48aea1" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="4074145e-7d8e-4622-a904-f49b1ddf421f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="35f1c75a-9317-49cb-9d48-09c38588b352" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/Service1/mex" />
+    <MetadataFile FileName="domotica_admin.Modelo.xsd" MetadataType="Schema" ID="ba24c7b8-4572-49ba-8857-3b3e39a52e29" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/Service1/mex" />
+    <MetadataFile FileName="domotica_WcfService.Administracion.xsd" MetadataType="Schema" ID="254be3aa-4e65-45ec-b99d-a0fe72991ce2" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/Service1/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="7d5da780-b03c-4a3e-86d0-bf72442bde72" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace lps_domotica_vista.domotica_WcfService {
+namespace lps_domotica_vista.IWSAdministracion {
     using System.Runtime.Serialization;
     using System;
     
@@ -23,7 +23,7 @@ namespace lps_domotica_vista.domotica_WcfService {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private lps_domotica_vista.domotica_WcfService.EEstadoDispositivo EstadoField;
+        private lps_domotica_vista.IWSAdministracion.EEstadoDispositivo EstadoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string IdDispositivoField;
@@ -35,7 +35,7 @@ namespace lps_domotica_vista.domotica_WcfService {
         private string NombreField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private lps_domotica_vista.domotica_WcfService.ETipoDispositivo TipoField;
+        private lps_domotica_vista.IWSAdministracion.ETipoDispositivo TipoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private double ValorField;
@@ -51,7 +51,7 @@ namespace lps_domotica_vista.domotica_WcfService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public lps_domotica_vista.domotica_WcfService.EEstadoDispositivo Estado {
+        public lps_domotica_vista.IWSAdministracion.EEstadoDispositivo Estado {
             get {
                 return this.EstadoField;
             }
@@ -103,7 +103,7 @@ namespace lps_domotica_vista.domotica_WcfService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public lps_domotica_vista.domotica_WcfService.ETipoDispositivo Tipo {
+        public lps_domotica_vista.IWSAdministracion.ETipoDispositivo Tipo {
             get {
                 return this.TipoField;
             }
@@ -176,16 +176,21 @@ namespace lps_domotica_vista.domotica_WcfService {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Respuesta", Namespace="http://schemas.datacontract.org/2004/07/domotica_WcfService")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Respuesta", Namespace="http://schemas.datacontract.org/2004/07/domotica_WcfService.Administracion")]
     [System.SerializableAttribute()]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(lps_domotica_vista.domotica_WcfService.Alarma))]
     public partial class Respuesta : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string MensajeServicioField;
+        private System.Collections.Generic.Dictionary<string, object> AnexoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool EstadoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MensajeField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -198,14 +203,40 @@ namespace lps_domotica_vista.domotica_WcfService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string MensajeServicio {
+        public System.Collections.Generic.Dictionary<string, object> Anexo {
             get {
-                return this.MensajeServicioField;
+                return this.AnexoField;
             }
             set {
-                if ((object.ReferenceEquals(this.MensajeServicioField, value) != true)) {
-                    this.MensajeServicioField = value;
-                    this.RaisePropertyChanged("MensajeServicio");
+                if ((object.ReferenceEquals(this.AnexoField, value) != true)) {
+                    this.AnexoField = value;
+                    this.RaisePropertyChanged("Anexo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Estado {
+            get {
+                return this.EstadoField;
+            }
+            set {
+                if ((this.EstadoField.Equals(value) != true)) {
+                    this.EstadoField = value;
+                    this.RaisePropertyChanged("Estado");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mensaje {
+            get {
+                return this.MensajeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MensajeField, value) != true)) {
+                    this.MensajeField = value;
+                    this.RaisePropertyChanged("Mensaje");
                 }
             }
         }
@@ -220,143 +251,30 @@ namespace lps_domotica_vista.domotica_WcfService {
         }
     }
     
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Alarma", Namespace="http://schemas.datacontract.org/2004/07/domotica_WcfService")]
-    [System.SerializableAttribute()]
-    public partial class Alarma : lps_domotica_vista.domotica_WcfService.Respuesta {
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private lps_domotica_vista.domotica_WcfService.Dispositivo DispositivoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime FechaHoraField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string IdAlarmaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private double Limite_InferiorField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private double Limite_SuperiorField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NombreField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private lps_domotica_vista.domotica_WcfService.ETipoAlarma TipificacioField;
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public lps_domotica_vista.domotica_WcfService.Dispositivo Dispositivo {
-            get {
-                return this.DispositivoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DispositivoField, value) != true)) {
-                    this.DispositivoField = value;
-                    this.RaisePropertyChanged("Dispositivo");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime FechaHora {
-            get {
-                return this.FechaHoraField;
-            }
-            set {
-                if ((this.FechaHoraField.Equals(value) != true)) {
-                    this.FechaHoraField = value;
-                    this.RaisePropertyChanged("FechaHora");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string IdAlarma {
-            get {
-                return this.IdAlarmaField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.IdAlarmaField, value) != true)) {
-                    this.IdAlarmaField = value;
-                    this.RaisePropertyChanged("IdAlarma");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public double Limite_Inferior {
-            get {
-                return this.Limite_InferiorField;
-            }
-            set {
-                if ((this.Limite_InferiorField.Equals(value) != true)) {
-                    this.Limite_InferiorField = value;
-                    this.RaisePropertyChanged("Limite_Inferior");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public double Limite_Superior {
-            get {
-                return this.Limite_SuperiorField;
-            }
-            set {
-                if ((this.Limite_SuperiorField.Equals(value) != true)) {
-                    this.Limite_SuperiorField = value;
-                    this.RaisePropertyChanged("Limite_Superior");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Nombre {
-            get {
-                return this.NombreField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NombreField, value) != true)) {
-                    this.NombreField = value;
-                    this.RaisePropertyChanged("Nombre");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public lps_domotica_vista.domotica_WcfService.ETipoAlarma Tipificacio {
-            get {
-                return this.TipificacioField;
-            }
-            set {
-                if ((this.TipificacioField.Equals(value) != true)) {
-                    this.TipificacioField = value;
-                    this.RaisePropertyChanged("Tipificacio");
-                }
-            }
-        }
-    }
-    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="domotica_WcfService.IWSAdministracion")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="IWSAdministracion.IWSAdministracion")]
     public interface IWSAdministracion {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSAdministracion/Agregar", ReplyAction="http://tempuri.org/IWSAdministracion/AgregarResponse")]
-        lps_domotica_vista.domotica_WcfService.Alarma Agregar(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.domotica_WcfService.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.domotica_WcfService.ETipoAlarma pTipificacion);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSAdministracion/AgregarAlarma", ReplyAction="http://tempuri.org/IWSAdministracion/AgregarAlarmaResponse")]
+        lps_domotica_vista.IWSAdministracion.Respuesta AgregarAlarma(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.IWSAdministracion.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.IWSAdministracion.ETipoAlarma pTipificacion);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSAdministracion/Agregar", ReplyAction="http://tempuri.org/IWSAdministracion/AgregarResponse")]
-        System.Threading.Tasks.Task<lps_domotica_vista.domotica_WcfService.Alarma> AgregarAsync(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.domotica_WcfService.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.domotica_WcfService.ETipoAlarma pTipificacion);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSAdministracion/AgregarAlarma", ReplyAction="http://tempuri.org/IWSAdministracion/AgregarAlarmaResponse")]
+        System.Threading.Tasks.Task<lps_domotica_vista.IWSAdministracion.Respuesta> AgregarAlarmaAsync(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.IWSAdministracion.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.IWSAdministracion.ETipoAlarma pTipificacion);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSAdministracion/ListarAlarma", ReplyAction="http://tempuri.org/IWSAdministracion/ListarAlarmaResponse")]
+        lps_domotica_vista.IWSAdministracion.Respuesta ListarAlarma();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSAdministracion/ListarAlarma", ReplyAction="http://tempuri.org/IWSAdministracion/ListarAlarmaResponse")]
+        System.Threading.Tasks.Task<lps_domotica_vista.IWSAdministracion.Respuesta> ListarAlarmaAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IWSAdministracionChannel : lps_domotica_vista.domotica_WcfService.IWSAdministracion, System.ServiceModel.IClientChannel {
+    public interface IWSAdministracionChannel : lps_domotica_vista.IWSAdministracion.IWSAdministracion, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class WSAdministracionClient : System.ServiceModel.ClientBase<lps_domotica_vista.domotica_WcfService.IWSAdministracion>, lps_domotica_vista.domotica_WcfService.IWSAdministracion {
+    public partial class WSAdministracionClient : System.ServiceModel.ClientBase<lps_domotica_vista.IWSAdministracion.IWSAdministracion>, lps_domotica_vista.IWSAdministracion.IWSAdministracion {
         
         public WSAdministracionClient() {
         }
@@ -377,12 +295,20 @@ namespace lps_domotica_vista.domotica_WcfService {
                 base(binding, remoteAddress) {
         }
         
-        public lps_domotica_vista.domotica_WcfService.Alarma Agregar(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.domotica_WcfService.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.domotica_WcfService.ETipoAlarma pTipificacion) {
-            return base.Channel.Agregar(pIdAlarma, pNombre, pFechaHora, pDispositivo, pLimite_Inferior, pLimite_Superior, pTipificacion);
+        public lps_domotica_vista.IWSAdministracion.Respuesta AgregarAlarma(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.IWSAdministracion.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.IWSAdministracion.ETipoAlarma pTipificacion) {
+            return base.Channel.AgregarAlarma(pIdAlarma, pNombre, pFechaHora, pDispositivo, pLimite_Inferior, pLimite_Superior, pTipificacion);
         }
         
-        public System.Threading.Tasks.Task<lps_domotica_vista.domotica_WcfService.Alarma> AgregarAsync(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.domotica_WcfService.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.domotica_WcfService.ETipoAlarma pTipificacion) {
-            return base.Channel.AgregarAsync(pIdAlarma, pNombre, pFechaHora, pDispositivo, pLimite_Inferior, pLimite_Superior, pTipificacion);
+        public System.Threading.Tasks.Task<lps_domotica_vista.IWSAdministracion.Respuesta> AgregarAlarmaAsync(string pIdAlarma, string pNombre, System.DateTime pFechaHora, lps_domotica_vista.IWSAdministracion.Dispositivo pDispositivo, double pLimite_Inferior, double pLimite_Superior, lps_domotica_vista.IWSAdministracion.ETipoAlarma pTipificacion) {
+            return base.Channel.AgregarAlarmaAsync(pIdAlarma, pNombre, pFechaHora, pDispositivo, pLimite_Inferior, pLimite_Superior, pTipificacion);
+        }
+        
+        public lps_domotica_vista.IWSAdministracion.Respuesta ListarAlarma() {
+            return base.Channel.ListarAlarma();
+        }
+        
+        public System.Threading.Tasks.Task<lps_domotica_vista.IWSAdministracion.Respuesta> ListarAlarmaAsync() {
+            return base.Channel.ListarAlarmaAsync();
         }
     }
 }
