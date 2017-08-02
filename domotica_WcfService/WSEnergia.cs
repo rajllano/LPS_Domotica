@@ -13,7 +13,7 @@ namespace domotica_WcfService.Energia
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "WSEnergia" en el código y en el archivo de configuración a la vez.
     public class WSEnergia : IWSEnergia
     {
-        public Respuesta Agregar(string pId, DateTime pFechaHora, int pHora, double pPotencia, Dispositivo pDispositivo)
+        public Respuesta AgregarEnergia(string pId, DateTime pFechaHora, int pHora, double pPotencia, int pDispositivo)
         {
             domotica_admin.Modelo.Respuesta r = ControlSeguimiento.Agregar(pId, pFechaHora, pHora, pPotencia, pDispositivo);
 
@@ -32,7 +32,7 @@ namespace domotica_WcfService.Energia
             }
         }
 
-        public Respuesta Listar()
+        public Respuesta ListarEnergia()
         {
             domotica_admin.Modelo.Respuesta r = domotica_gestion_energia.Control.ControlSeguimiento.Listar();
             if (r.Estado)

@@ -14,10 +14,10 @@ namespace domotica_gestion_energia.Control
     {
         public static Respuesta Agregar(Seguimiento d)
         {
-            return Agregar(d.Id, d.FechaHora, d.Hora, d.Potencia, d.Dispositivo);
+            return Agregar(d.Id, d.FechaHora, d.Hora, d.Potencia, d.IdDispositivo);
         }
 
-        public static Respuesta Agregar(string pId, DateTime pFechaHora, int pHora, Double pPotencia, Dispositivo pDispositivo)
+        public static Respuesta Agregar(string pId, DateTime pFechaHora, int pHora, Double pPotencia, int pIdDispositivo)
         {
             Respuesta r = new Respuesta("ControlSeguimiento.Agregar");
 
@@ -29,7 +29,7 @@ namespace domotica_gestion_energia.Control
                 a.FechaHora = pFechaHora;
                 a.Hora = pHora;
                 a.Potencia = pPotencia;
-                a.Dispositivo = pDispositivo;
+                a.IdDispositivo = pIdDispositivo;
 
                 Energia.getInstancia().ColeccionEnergia.Agregar(a);
 

@@ -19,5 +19,10 @@ namespace domotica_gestion_energia.Modelo
 
             return Instancia;
         }
+
+        public Energia()
+        {
+            ColeccionEnergia = new ColeccionEnergia();
+        }
     }
 }

@@ -191,6 +191,7 @@
             this.MinimumSize = new System.Drawing.Size(473, 250);
             this.Name = "frmAlarma";
             this.Text = "Alarmas";
+            this.Load += new System.EventHandler(this.frmAlarma_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

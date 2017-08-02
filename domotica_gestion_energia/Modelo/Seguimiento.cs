@@ -16,7 +16,7 @@ namespace domotica_gestion_energia.Modelo
 
         public Double Potencia { get; set; }
 
-        public Dispositivo Dispositivo { get; set; }
+        public int IdDispositivo { get; set; }
 
     }
 }

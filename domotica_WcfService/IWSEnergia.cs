@@ -14,8 +14,8 @@ namespace domotica_WcfService.Energia
     public interface IWSEnergia
     {
         [OperationContract]
-        Respuesta Agregar(string pId, DateTime pFechaHora, int pHora, Double pPotencia, Dispositivo pDispositivo);
-        Respuesta Listar();
+        Respuesta AgregarEnergia(string pId, DateTime pFechaHora, int pHora, Double pPotencia, int pDispositivo);
+        Respuesta ListarEnergia();
     }
 
     [DataContract]
@@ -30,7 +30,7 @@ namespace domotica_WcfService.Energia
         [DataMember]
         public Double Potencia { get; set; }
         [DataMember]
-        public domotica_admin.Modelo.Dispositivo Dispositivo { get; set; }
+        public int Dispositivo { get; set; }
         
     }
 

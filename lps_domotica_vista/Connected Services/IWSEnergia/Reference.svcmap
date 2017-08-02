@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="679ff345-f300-4898-975a-a041e3f7a1ae" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/WSEnergia/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="aa0f6f78-c657-4be6-bc6a-88a37bccdcda" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/WSEnergia/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="154fcb44-1189-49e6-a5cf-2ee4b5963f01" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/WSEnergia/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="50295070-0e54-42e9-9417-407844b23a82" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/WSEnergia/mex" />
+    <MetadataFile FileName="domotica_WcfService.Energia.xsd" MetadataType="Schema" ID="b28f59e4-ab22-4f06-adb1-e886e6588c95" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/WSEnergia/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="f877d71b-9afe-4cdf-ba58-589b3acf4dfe" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/domotica_WcfService/WSEnergia/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

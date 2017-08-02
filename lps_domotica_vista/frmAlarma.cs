@@ -19,9 +19,25 @@ namespace lps_domotica_vista
 
         private void frmAlarma_Load(object sender, EventArgs e)
         {
+            //cargarListarAlarmas();
             using (IWSAdministracion.WSAdministracionClient cliente = new IWSAdministracion.WSAdministracionClient())
             {
-                 //cliente.ListarAlarma().Anexo["ColeccionAlarmas"];
+
+                //cliente.AgregarAlarma("1","Alarma 1", DateTime.Now, );
+            }
+        }
+
+        private void cargarListarAlarmas()
+        {
+            using (IWSAdministracion.WSAdministracionClient cliente = new IWSAdministracion.WSAdministracionClient())
+            {
+                StringBuilder CertBuilder = new StringBuilder();
+                // Recorre los pares           
+                foreach (KeyValuePair<string, object> Par in cliente.ListarAlarma().Anexo)
+                {
+                    CertBuilder.AppendLine(string.Format("{0}:{1}", Par.Key, Par.Value));
+                    Console.WriteLine(Par.Key + " - " + Par.Value);
+                }
             }
         }
 

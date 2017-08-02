@@ -51,3 +51,5 @@ D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotic
 D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe.config
 D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.exe
 D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\bin\Debug\lps_domotica_vista.pdb
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\01_domotica_vista.csprojResolveAssemblyReference.cache
+D:\05_Desarrollo\01_GitHub\LPS_Domotica\lps_domotica_vista\obj\Debug\lps_domotica_vista.SeguimientoEnergia.resources

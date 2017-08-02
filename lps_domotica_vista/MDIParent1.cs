@@ -45,5 +45,13 @@ namespace lps_domotica_vista
             Forma.Show();
             Forma.WindowState = FormWindowState.Normal;
         }
+
+        private void seguimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SeguimientoEnergia  Forma = new SeguimientoEnergia();
+            Forma.MdiParent = this;
+            Forma.Show();
+            Forma.WindowState = FormWindowState.Normal;
+        }
     }
 }
